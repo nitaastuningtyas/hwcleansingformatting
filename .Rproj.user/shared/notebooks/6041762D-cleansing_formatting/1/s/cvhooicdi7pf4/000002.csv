@@ -1,0 +1,2 @@
+"0","frequency <- online_retail_drop %>% group_by(CustomerID) %>% summarise(frequency = n_distinct(InvoiceNo))"
+"0",""

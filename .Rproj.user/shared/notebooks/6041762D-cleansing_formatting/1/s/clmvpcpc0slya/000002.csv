@@ -1,0 +1,1 @@
+"0","recency <- online_retail_drop %>% group_by(CustomerID) %>% arrange(desc(InvoiceDate)) %>%   filter(row_number()==1) %>% mutate(recency = as.numeric(as.duration(interval(InvoiceDate,ymd(""2011-12-31""))))/86400) %>% select(CustomerID, recency)"

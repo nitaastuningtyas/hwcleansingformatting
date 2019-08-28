@@ -1,0 +1,1 @@
+"0","monetary <- online_retail_drop %>% group_by(CustomerID) %>% summarise(monetary=sum(UnitPrice*Quantity))"

@@ -1,0 +1,1 @@
+"0","online_retail_rfm <- recency %>% left_join(frequency,by=""CustomerID"") %>% left_join(monetary,by=""CustomerID"")"
